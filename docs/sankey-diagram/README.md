@@ -5,7 +5,7 @@
 ## 图表简介
 桑基图，是用于描述从一组值到另一组值的流的可视化，它是一种具有多用途的流程图，可以应用于许多不同的领域。当您希望显示两个域（例如，大学和专业）之间的**多对多映射**或通过**一组阶段的多路径**时都可以使用桑基图(例如，Google Analytics使用sankeys来显示网站上流量如何从页面流向其他页面）
 
-**注意: **使用桑基图要注意的是数据要避免环路，下面3种场景图表不会渲染：1. 节点A连接到它本身 2. 节点A连接到节点B，节点B连接节点C，节点C又连接到节点a。
+**注意:** 使用桑基图要注意的是数据要避免环路，下面3种场景图表不会渲染：1. 节点A连接到它本身 2. 节点A连接到节点B，节点B连接节点C，节点C又连接到节点a。
 
 此处的桑基图打破了能量守恒的思想，得以更广的使用
 
@@ -38,12 +38,12 @@
 
 ![](https://cdn.nlark.com/lark/0/2018/png/46109/1545816016905-c397acd1-cf56-4bef-b14c-dae2237889cb.png#align=center&display=inline&height=249&linkTarget=_blank&originHeight=840&originWidth=1402&width=415)
 
-根据上图的可视化，我们可以找到一些关键的分析点：**新增用戶数是否大于流失用戶数，每个月新老用户的转化情况，哪个阶段的用户流失较高等。**基于这些，运营可以针对不同的活跃群体进行深入分析，比如说用户为什么不活跃了，什么样的用户能成为忠诚用戶，什么样的用户会流失？这些深入分析通常是围绕着自己的产品和业务展开的。
+根据上图的可视化，我们可以找到一些关键的分析点：**新增用戶数是否大于流失用戶数，每个月新老用户的转化情况，哪个阶段的用户流失较高等** 基于这些，运营可以针对不同的活跃群体进行深入分析，比如说用户为什么不活跃了，什么样的用户能成为忠诚用戶，什么样的用户会流失？这些深入分析通常是围绕着自己的产品和业务展开的。
 
 ### 适用场景2：网站流量分析
 存在流失情况<br />![image.png](https://cdn.nlark.com/yuque/0/2019/png/221520/1547137160065-9278e1e0-ed33-43d9-a43a-e93dcbbd24d7.png#align=left&display=inline&height=314&linkTarget=_blank&name=image.png&originHeight=1220&originWidth=2230&size=220317&width=575)<br />地址：[https://www.anychart.com/products/anychart/gallery/Sankey_Diagram/User_Flow_Chart.php](https://www.anychart.com/products/anychart/gallery/Sankey_Diagram/User_Flow_Chart.php)
 
-### 适用场景3：**不同变量之间的多对多关系
+### 适用场景3：不同变量之间的多对多关系
 ![image.png](https://cdn.nlark.com/yuque/0/2019/png/221520/1547137082382-030cadec-c7e7-4517-83df-4f1aded188e7.png#align=left&display=inline&height=300&linkTarget=_blank&name=image.png&originHeight=1310&originWidth=2554&size=603661&width=585)<br />地址：[https://my.infocaptor.com/dash/mt.php?pa=usa_presidents_55e9b4e29e3c7](https://my.infocaptor.com/dash/mt.php?pa=usa_presidents_55e9b4e29e3c7)
 
 ### 不适用场景
@@ -51,8 +51,8 @@
 
 ![](https://cdn.nlark.com/lark/0/2018/png/46109/1545348951986-d34a2891-f924-422b-bde2-7b9018f32830.png#align=center&display=inline&height=212&linkTarget=_blank&originHeight=649&originWidth=549&width=179)<br />
 <br />现在的图表清楚地显示了一些内容，观察者可以从这种可视化中获取到下面的信息：
-* **技术**销售量最大**的产品类别
-* **南方**销售量最小**的区域 - 其他区域的销售量类推 
+* **技术**：销售量最大的产品类别
+* **南方**：销售量最小的区域 - 其他区域的销售量类推 
 
 然后？似乎感觉大多数洞察来自可视化两侧的条形图 - 而不是实际的“流动”（这又是误导性的吗？）<br />那我们再考虑看下，单纯使用条形图来展示上面的情况：
 
